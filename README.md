@@ -64,8 +64,7 @@ ridiculous-life-advice-machine/
 ### 3. `calculate_luck(age, lucky_number)`
 - **Type:** Value-returning function (accepts `age: int`, `lucky_number: int`).
 - **Module:** `ridiculous_tools.py`
-- **Formula:** 
-  $$\text{Luck Score} = \lceil \sqrt{\text{age}} \times \text{lucky\_number} \rceil$$
+- **Formula:** $$\text{Luck Score} = \lceil \sqrt{\text{age}} \times \text{lucky number} \rceil$$
 - **Behavior:** Prints `"Calculating your luck score..."`, computes the score using `math.sqrt()` and `math.ceil()`, and returns the calculated integer to `main()` without printing the final score itself.
 
 ---
